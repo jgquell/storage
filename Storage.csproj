@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="images\line6\**" />
+    <EmbeddedResource Remove="images\line6\**" />
+    <None Remove="images\line6\**" />
+    <Page Remove="images\line6\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="images\linha2\aplicativos.png" />
+    <None Remove="images\linha2\favoritos.png" />
+    <None Remove="images\linha2\jogos.png" />
+    <None Remove="images\linha2\produtividade.png" />
+    <None Remove="images\linha6\entretenimento.png" />
+    <None Remove="images\linha6\seguranca.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\linha2\aplicativos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\linha2\favoritos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\linha2\jogos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\linha2\produtividade.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\linha6\entretenimento.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\linha6\seguranca.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Cache and generated files
+*.cache
+*.tref
+*.ide
+
+# NuGet files
+*.nupkg
+*.snupkg
+*.nuspec
+*.dg
+
+# VS specific
+.vscode/
+.vs/
