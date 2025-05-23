@@ -105,9 +105,9 @@
                         <!-- Grid.Row="1" -->
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    
+
                     <!-- Banner 1 -->
-                        <!-- Imagem -->
+                    <!-- Imagem -->
                     <StackPanel
                         Grid.RowSpan="1"
                         Grid.ColumnSpan="2"
@@ -126,7 +126,7 @@
                             />
                         </Border>
                     </StackPanel>
-                        <!-- Texto -->
+                    <!-- Texto -->
                     <StackPanel
                         Grid.RowSpan="1"
                         Grid.Column="0" 
@@ -142,9 +142,9 @@
                             FontSize="18"
                         />
                     </StackPanel>
-                    
+
                     <!-- Banner 2 -->
-                        <!-- Imagem -->
+                    <!-- Imagem -->
                     <StackPanel
                         Grid.Row="0"
                         Grid.Column="2"
@@ -164,7 +164,7 @@
                             />
                         </Border>
                     </StackPanel>
-                        <!-- Texto -->
+                    <!-- Texto -->
                     <StackPanel
                         Grid.Row="0"
                         Grid.Column="2"
@@ -180,9 +180,9 @@
                             FontSize="18"
                         />
                     </StackPanel>
-                    
+
                     <!-- Banner 3 -->
-                        <!-- Imagem -->
+                    <!-- Imagem -->
                     <StackPanel
                         Grid.RowSpan="1"
                         Grid.Column="2"
@@ -201,7 +201,7 @@
                             />
                         </Border>
                     </StackPanel>
-                        <!-- Texto -->
+                    <!-- Texto -->
                     <StackPanel
                         Grid.RowSpan="1"
                         Grid.Column="2"
@@ -217,9 +217,9 @@
                             FontSize="15"
                         />
                     </StackPanel>
-                    
+
                     <!-- Banner 4 -->
-                        <!-- Imagem -->
+                    <!-- Imagem -->
                     <StackPanel
                         Grid.RowSpan="1"
                         Grid.Column="3"
@@ -238,7 +238,7 @@
                             />
                         </Border>
                     </StackPanel>
-                        <!-- Texto -->
+                    <!-- Texto -->
                     <StackPanel
                         Grid.RowSpan="1"
                         Grid.Column="3"
@@ -256,10 +256,9 @@
                     </StackPanel>
                 </Grid>
 
-
-                <!-- Linha 6: Cards de Introdução) -->
+                <!-- Linha 6: Cards de Introdução -->
                 <Grid>
-                    <!-- Definindo as Colunas -->
+                    <!-- Colunas -->
                     <Grid.ColumnDefinitions>
                         <!-- Grid.Column="0" -->
                         <ColumnDefinition Width="*"/>
@@ -268,148 +267,94 @@
                         <!-- Grid.Column="2" -->
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <!-- Definindo as Linhas -->
-                    <Grid.RowDefinitions>
-                        <!-- Grid.Row="0" -->
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    
+
                     <!-- Card 1 -->
-                        <!-- Imagem -->
-                    <StackPanel 
-                        Grid.Row="0" 
-                        Grid.Column="0" 
-                        Margin="40,30,0,0"
-                        VerticalAlignment="Center" 
-                        HorizontalAlignment="Center"
-                    >
-                        <Border
-                            Width="595"
-                            Height="350"
-                            Background="#464646"
-                            CornerRadius="20"
-                        >
-                            <!-- Imagem -->
-                            <Image 
-                                Source="/images/linha6/seguranca.png" 
-                                Stretch="Fill"
-                            />
+                    <StackPanel Grid.Column="0" Margin="40,30,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Border Width="595" Height="350" Background="#464646" CornerRadius="20">
+                            <Grid>
+                                <Image 
+                                    Source="/images/linha6/seguranca.png" 
+                                    Stretch="Fill"/>
+                                <TextBlock Text="Introdução"
+                                    Foreground="White"
+                                    FontSize="15"
+                                    VerticalAlignment="Bottom"
+                                    HorizontalAlignment="Left"
+                                    Margin="30,0,0,20"/>
+                            </Grid>
                         </Border>
-                    </StackPanel>
-                        <!-- Texto -->
-                    <StackPanel
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        VerticalAlignment="Bottom"
-                        HorizontalAlignment="Left"
-                        Margin="70,0,0,25"
-                    >
-                        <TextBlock 
-                            Text="Introdução"
-                            Foreground="White"
-                            FontSize="15"
-                        />
                     </StackPanel>
 
                     <!-- Card 2 -->
-                        <!-- Imagem -->
-                    <StackPanel
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        VerticalAlignment="Center"
-                        HorizontalAlignment="Center"
-                        Margin="0,30,0,0"
-                    >
-                        <Border
-                            Width="595"
-                            Height="350"
-                            Background="#464646"
-                            CornerRadius="20"
-                        >
-                            <!-- Imagem -->
-                            <Image
-                                Source="/images/linha6/entretenimento.png" 
-                                Stretch="Fill"
-                            />
+                    <StackPanel Grid.Column="1" Margin="0,30,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Border Width="595" Height="350" Background="#464646" CornerRadius="20">
+                            <Grid>
+                                <Image 
+                                    Source="/images/linha6/entretenimento.png" 
+                                    Stretch="Fill"
+                                />
+                                <TextBlock Text="Entretenimento"
+                                    Foreground="White"
+                                    FontSize="15"
+                                    VerticalAlignment="Bottom"
+                                    HorizontalAlignment="Left"
+                                    Margin="30,0,0,20"
+                                />
+                            </Grid>
                         </Border>
                     </StackPanel>
-                        <!-- Texto -->
-                    <StackPanel
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        VerticalAlignment="Bottom"
-                        HorizontalAlignment="Left"
-                        Margin="50,0,0,25"
-                    >
-                        <TextBlock
-                            Text="Entretenimento"
-                            Foreground="White"
-                            FontSize="15"
-                        />
-                    </StackPanel>
-                                      
+
                     <!-- Card 3 -->
-                        <!-- Imagem -->
-                    <StackPanel
-                        Grid.Row="0"
-                        Grid.Column="2"
-                        VerticalAlignment="Center"
-                        HorizontalAlignment="Center"
-                        Margin="0,30,40,0"
-                    >
-                        <Border
-                            Width="595"
-                            Height="350"
-                        >
-                            <!-- Imagem -->
-                            <Image
-                                Source="/images/linha6/seguranca.png"
-                                Stretch="Fill"
-                            />
+                    <StackPanel Grid.Column="2" Margin="0,30,40,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Border Width="595" Height="350" Background="#464646" CornerRadius="20">
+                            <Grid>
+                                <Image 
+                                    Source="/images/linha6/seguranca.png" 
+                                    Stretch="Fill"
+                                />
+                                <TextBlock Text="Segurança"
+                                    Foreground="White"
+                                    FontSize="15"
+                                    VerticalAlignment="Bottom"
+                                    HorizontalAlignment="Left"
+                                    Margin="30,0,0,20"
+                                />
+                            </Grid>
                         </Border>
-                    </StackPanel>
-                        <!-- Texto -->
-                    <StackPanel 
-                        Grid.Row="0"
-                        Grid.Column="2"
-                        VerticalAlignment="Bottom"
-                        HorizontalAlignment="Left"
-                        Margin="30,0,0,25"
-                    >
-                        <TextBlock
-                            Text="Segurança"
-                            Foreground="White"
-                            FontSize="15"
-                        />
                     </StackPanel>
                 </Grid>
 
-                <!-- Linha 7: Texto de Rodapé) -->
+                <!-- Linha 7: Rodapé -->
                 <Grid>
-                    <!-- Definindo as Linhas -->
+                    <!-- Colunas -->
                     <Grid.RowDefinitions>
                         <!-- Grid.Row="0" -->
                         <RowDefinition Height="150"/>
                     </Grid.RowDefinitions>
 
-                    <!-- Rodápé --> 
-                    <StackPanel 
-                        Grid.Row="0" 
-                        VerticalAlignment="Center" 
+                    <!-- Rodapé -->
+                    <StackPanel
+                        Grid.Row="0"
+                        VerticalAlignment="Center"
                         HorizontalAlignment="Center"
+                        Margin="20,0,20,0"
                     >
-                        <!-- Texto (Política de Privacidade) -->
-                        <TextBlock
-                            Text="Política de Privacidade     |     Termos Legais     |     Reembolsos     |     Cookies"
+                        
+                        <!-- Links -->
+                        <TextBlock Text="Política de Privacidade   |   Termos Legais   |   Reembolsos   |   Cookies"
                             TextAlignment="Center"
                             Foreground="White"
+                            FontSize="14"
+                            TextWrapping="Wrap"
                             Margin="0,0,0,10"
                         />
-                        <!-- Texto (Todos os direitos reservados) -->
-                        <TextBlock
-                            Text="©2025 Storage. Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos em outros países."
+
+                        <!-- Direitos autorais -->
+                        <TextBlock Text="©2025 Storage. Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos em outros países."
                             TextAlignment="Center"
                             Foreground="White"
+                            FontSize="12"
+                            TextWrapping="Wrap"
                         />
                     </StackPanel>
                 </Grid>
